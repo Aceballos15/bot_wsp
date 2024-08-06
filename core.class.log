@@ -1,0 +1,99 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573108272293@s.whatsapp.net',
+    fromMe: false,
+    id: 'F1B7BAAE223E443D8B',
+    participant: undefined
+  },
+  messageTimestamp: 1722982124,
+  pushName: '~Alex Ceballos~',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: 'hola', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '573108272293'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f2633d9c-f8bc-443b-aadc-7033864f2576',
+  keyword: 'key_4044182a-9bc6-4da3-9adc-18244ba15617',
+  answer: '¡Hola! 👋 Bienvenido al servicio automático para nuestros clientes y usuarios TecnoSuper. ¿Qué deseas hacer hoy?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'ada67833c4fc0b11c0a78a1b157407eb'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8f3c4d40-1aac-4e9f-9cdf-6af6ab06fe0b',
+  keyword: 'ans_f2633d9c-f8bc-443b-aadc-7033864f2576',
+  answer: '*1.* Consultar saldo',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'dcb6536a6eff40eca63cc34643ea7086'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573108272293@s.whatsapp.net',
+    fromMe: false,
+    id: 'E7CAF7FC541BE27324',
+    participant: undefined
+  },
+  messageTimestamp: 1722982126,
+  pushName: '~Alex Ceballos~',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: '1', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '573108272293'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573108272293@s.whatsapp.net',
+    fromMe: false,
+    id: '04FA632A2516099069',
+    participant: undefined
+  },
+  messageTimestamp: 1722982130,
+  pushName: '~Alex Ceballos~',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '1040732036',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1040732036',
+  from: '573108272293'
+}
