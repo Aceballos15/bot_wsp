@@ -58,7 +58,7 @@ const flowIdentification = addKeyword("CONSULT BALANCE").addAnswer(
   }
 );
 
-const flowPrincipal = addKeyword(["hola", "Hola", "ola"], { sensitive: true })
+const flowPrincipal = addKeyword(["hola", "Hola", "ola", "Buenas", "buenos", "días", "dias", "tarde", "tardes", "noche"], { sensitive: true })
   .addAnswer(
     "¡Hola! 👋 Bienvenido al servicio automático para nuestros clientes y usuarios TecnoSuper. ¿Qué deseas hacer hoy?"
   )
